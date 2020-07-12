@@ -25,7 +25,7 @@ class HuberLossFunction
      * 
      * @param x_transition: Domain value for which function transitions from quadratic to linear
      */
-    HuberLossFunction(double x_transition);
+    HuberLossFunction(const double x_transition);
 
     /**
      * @brief Evaluate Huber loss function
