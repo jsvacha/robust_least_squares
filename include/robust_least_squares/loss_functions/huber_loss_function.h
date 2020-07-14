@@ -1,6 +1,6 @@
 /**
  * @file huber_loss_function.h
- * @author your name (you@domain.com)
+ * @author James Svacha (jbsvacha@gmail.com)
  * @brief: Huber loss function for robust least squares
  * @version 0.1
  * @date 2020-07-12
@@ -12,12 +12,13 @@
 #ifndef HUBER_LOSS_FUNCTION_
 #define HUBER_LOSS_FUNCTION_
 
+#include "robust_least_squares/loss_functions/loss_function.h"
 #include <Eigen/Geometry>
 
 namespace robust_least_squares
 {
 
-class HuberLossFunction
+class HuberLossFunction : public LossFunction
 {
   public:
     /**
