@@ -9,8 +9,8 @@
  * 
  */
 
-#include "robust_least_squares/loss_functions/huber_loss_function.h"
-#include "math.h"
+#include <robust_least_squares/loss_functions/huber_loss_function.h>
+#include <math.h>
 
 namespace robust_least_squares
 {

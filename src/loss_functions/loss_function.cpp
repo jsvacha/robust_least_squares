@@ -9,7 +9,7 @@
  * 
  */
 
-#include "robust_least_squares/loss_functions/loss_function.h"
+#include <robust_least_squares/loss_functions/loss_function.h>
 
 namespace robust_least_squares
 {

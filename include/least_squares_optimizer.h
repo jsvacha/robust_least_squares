@@ -12,7 +12,7 @@
 #ifndef LEAST_SQUARES_OPTIMIZER_H_
 #define LEAST_SQUARES_OPTIMIZER_H_
 
-#include "robust_least_squares/loss_functions/huber_loss_function.h"
+#include <robust_least_squares/loss_functions/huber_loss_function.h>
 #include <memory>
 
 namespace robust_least_squares 
